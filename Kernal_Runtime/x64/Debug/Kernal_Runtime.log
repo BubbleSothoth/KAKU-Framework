@@ -1,0 +1,98 @@
+﻿  System.cpp
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\Tools.h(104,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\Plugin.h(11,15): warning C4251: “Plugin::file”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“Plugin”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5187): message : 参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15,25): warning C4251: “PluginSystem::pluginList”: class“CircularQueue<Plugin *>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15): message : 参见“CircularQueue<Plugin *>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(16,14): warning C4251: “PluginSystem::srcPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5186): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(91,44): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(93,44): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(89,21): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(90,21): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(107,30): warning C4251: “RuntimeSystem::runningStateTableScore”: class“Score<bool [48]>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(107): message : 参见“Score<bool [48]>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(110,39): warning C4251: “RuntimeSystem::systemErrorTableScore”: class“Score<std::stack<unsigned short,std::deque<unsigned short,std::allocator<unsigned short>>>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(110): message : 参见“Score<std::stack<unsigned short,std::deque<unsigned short,std::allocator<unsigned short>>>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(111,13): warning C4251: “RuntimeSystem::ioMutex”: class“std::mutex”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mutex(86): message : 参见“std::mutex”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(112,28): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(112,30): warning C4251: “RuntimeSystem::nextOperation”: class“Score<CommandStruct>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(112): message : 参见“Score<CommandStruct>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(113,39): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(113,42): warning C4251: “RuntimeSystem::historyOperation”: class“Score<std::stack<CommandStruct,std::deque<CommandStruct,std::allocator<CommandStruct>>>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(113): message : 参见“Score<std::stack<CommandStruct,std::deque<CommandStruct,std::allocator<CommandStruct>>>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(132,4): warning C5030: 未识别属性“noinline”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24,32): warning C4251: “PromationFactory<CodeType,ReturnType,InstanceType>::switch_list”: class“std::map<CodeType,ReturnType,std::less<_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“PromationFactory<CodeType,ReturnType,InstanceType>”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24): message : 参见“std::map<CodeType,ReturnType,std::less<_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(37): message : 查看对正在编译的 类 模板 实例化“PromationFactory<CodeType,ReturnType,InstanceType>”的引用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24,32): warning C4251: “PromationFactory<unsigned short,void *,void>::switch_list”: class“std::map<CodeType,ReturnType,std::less<CodeType>,std::allocator<std::pair<const CodeType,ReturnType>>>”需要有 dll 接口由 class“PromationFactory<unsigned short,void *,void>”的客户端使用
+          with
+          [
+              CodeType=unsigned short,
+              ReturnType=void *
+          ]
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24): message : 参见“std::map<CodeType,ReturnType,std::less<CodeType>,std::allocator<std::pair<const CodeType,ReturnType>>>”的声明
+          with
+          [
+              CodeType=unsigned short,
+              ReturnType=void *
+          ]
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\SystemErrorPromationFactory.h(7): message : 查看对正在编译的 类 模板 实例化“PromationFactory<unsigned short,void *,void>”的引用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.cpp(29,33): warning C4267: “初始化”: 从“size_t”转换到“short”，可能丢失数据
+  SystemErrorPromationFactory.cpp
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24,32): warning C4251: “PromationFactory<CodeType,ReturnType,InstanceType>::switch_list”: class“std::map<CodeType,ReturnType,std::less<_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“PromationFactory<CodeType,ReturnType,InstanceType>”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24): message : 参见“std::map<CodeType,ReturnType,std::less<_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(37): message : 查看对正在编译的 类 模板 实例化“PromationFactory<CodeType,ReturnType,InstanceType>”的引用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\Tools.h(104,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\Plugin.h(11,15): warning C4251: “Plugin::file”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“Plugin”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5187): message : 参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15,25): warning C4251: “PluginSystem::pluginList”: class“CircularQueue<Plugin *>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15): message : 参见“CircularQueue<Plugin *>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(16,14): warning C4251: “PluginSystem::srcPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5186): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(91,44): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(93,44): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(89,21): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(90,21): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(107,30): warning C4251: “RuntimeSystem::runningStateTableScore”: class“Score<bool [48]>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(107): message : 参见“Score<bool [48]>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(110,39): warning C4251: “RuntimeSystem::systemErrorTableScore”: class“Score<std::stack<unsigned short,std::deque<unsigned short,std::allocator<unsigned short>>>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(110): message : 参见“Score<std::stack<unsigned short,std::deque<unsigned short,std::allocator<unsigned short>>>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(111,13): warning C4251: “RuntimeSystem::ioMutex”: class“std::mutex”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mutex(86): message : 参见“std::mutex”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(112,28): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(112,30): warning C4251: “RuntimeSystem::nextOperation”: class“Score<CommandStruct>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(112): message : 参见“Score<CommandStruct>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(113,39): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(76): message : 参见“CommandStruct”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(113,42): warning C4251: “RuntimeSystem::historyOperation”: class“Score<std::stack<CommandStruct,std::deque<CommandStruct,std::allocator<CommandStruct>>>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(113): message : 参见“Score<std::stack<CommandStruct,std::deque<CommandStruct,std::allocator<CommandStruct>>>>”的声明
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\System.h(132,4): warning C5030: 未识别属性“noinline”
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24,32): warning C4251: “PromationFactory<unsigned short,void *,void>::switch_list”: class“std::map<CodeType,ReturnType,std::less<CodeType>,std::allocator<std::pair<const CodeType,ReturnType>>>”需要有 dll 接口由 class“PromationFactory<unsigned short,void *,void>”的客户端使用
+          with
+          [
+              CodeType=unsigned short,
+              ReturnType=void *
+          ]
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Tools\PromationFactory.h(24): message : 参见“std::map<CodeType,ReturnType,std::less<CodeType>,std::allocator<std::pair<const CodeType,ReturnType>>>”的声明
+          with
+          [
+              CodeType=unsigned short,
+              ReturnType=void *
+          ]
+C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\Kernal_Runtime\SystemErrorPromationFactory.h(7): message : 查看对正在编译的 类 模板 实例化“PromationFactory<unsigned short,void *,void>”的引用
+  正在生成代码...
+    正在创建库 C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\x64\Debug\Kernal_Runtime.lib 和对象 C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\x64\Debug\Kernal_Runtime.exp
+  Kernal_Runtime.vcxproj -> C:\Users\27746\Desktop\KAKU-Framework-main\KAKU-Framework-main\x64\Debug\Kernal_Runtime.dll
