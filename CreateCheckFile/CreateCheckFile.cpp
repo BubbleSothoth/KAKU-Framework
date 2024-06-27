@@ -8,7 +8,7 @@
 #include "../Tools/HashAlgorithm.h"
 #include "../Kernal_Runtime/DLLCheckInfoStruct.h"
 
-#pragma comment(lib,"X:/Reader/x64/Release/Tools.lib")
+#pragma comment(lib,"../x64/Release/Tools.lib")
 
 using namespace std;
 
@@ -16,10 +16,10 @@ const vector<string> file =
 {
     "Kernal_Runtime.dll",
     "Kernal_PluginSystem.dll",
-    "Kernal_ReaderSystem.dll",
-    "DataStruct.dll",
+    //"Kernal_ReaderSystem.dll",
+    //"DataStruct.dll",
     "Tools.dll",
-    "Reader.exe"
+    //"Reader.exe"
 };
 
 bool __write(string file, DCIS* lpdata) {
@@ -48,7 +48,7 @@ int main()
             printf_s("%02X ", *(hash + i));
         }
         printf_s("\n");
-        __write("X:/Reader/check.md5", &dcis);
+        __write("check.md5", &dcis);
     }
     free(hash);
     return 0x0;
