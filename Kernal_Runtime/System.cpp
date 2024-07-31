@@ -20,8 +20,8 @@ class __declspec(dllimport) PluginSystem;
 
 //static declaration
 
-Score<bool[RSTSIZE]> RuntimeSystem::runningStateTableScore;//RST±í
-Score<std::stack<_ErrorCode>> RuntimeSystem::systemErrorTableScore;//SET±í
+Score<bool[RSTSIZE]> RuntimeSystem::runningStateTableScore;//RSTè¡¨
+Score<std::stack<_ErrorCode>> RuntimeSystem::systemErrorTableScore;//SETè¡¨
 //code
 
 inline void InitPrintf(std::string key, std::string value, unsigned short size) {
@@ -114,6 +114,7 @@ void RuntimeSystem::Inte(void)
 		SETMutex.unlock();
 		RST[ErrorFlag] = false;
 		if (this->RST[ESCFlag]) {
+			RSTMutex.unlock();
 			exit(-1);
 		}
 		RSTMutex.unlock();
@@ -210,7 +211,7 @@ void RuntimeSystem::setSeriousError(_ErrorCode code) {
 	RST[InteFlag] = true;
 	SETMutex.unlock();
 	RSTMutex.unlock();
-	while (true) { std::this_thread::sleep_for(std::chrono::milliseconds(500)); }	//µÈ´ıÖĞ¶ÏÏß³ÌÇ°À´´¦Àí
+	while (true) { std::this_thread::sleep_for(std::chrono::milliseconds(500)); }	//ç­‰å¾…ä¸­æ–­çº¿ç¨‹å‰æ¥å¤„ç†
 }
 
 inline void RuntimeSystem::OutputData(std::string aim, std::string data) {
@@ -251,19 +252,19 @@ void RuntimeSystem::__systemSelfInspection_OS(void)
 	ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
 	osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
 
-	// ÔÚÕâÀïÉèÖÃÌõ¼şÑÚÂë£¬Ö¸¶¨ÄãÏëÒª¼ì²éµÄ²Ù×÷ÏµÍ³°æ±¾
-	// ÕâÀïÒÔ Windows 10 ÎªÀı
+	// åœ¨è¿™é‡Œè®¾ç½®æ¡ä»¶æ©ç ï¼ŒæŒ‡å®šä½ æƒ³è¦æ£€æŸ¥çš„æ“ä½œç³»ç»Ÿç‰ˆæœ¬
+	// è¿™é‡Œä»¥ Windows 10 ä¸ºä¾‹
 	osvi.dwMajorVersion = 10;
 	osvi.dwMinorVersion = 0;
 	osvi.wServicePackMajor = 0;
 	osvi.wProductType = VER_NT_WORKSTATION;
 
-	// ÉèÖÃÌõ¼şÑÚÂë
+	// è®¾ç½®æ¡ä»¶æ©ç 
 	VER_SET_CONDITION(dwlConditionMask, VER_MAJORVERSION, VER_EQUAL);
 	VER_SET_CONDITION(dwlConditionMask, VER_MINORVERSION, VER_EQUAL);
 	VER_SET_CONDITION(dwlConditionMask, VER_PRODUCT_TYPE, VER_EQUAL);
 
-	// µ÷ÓÃ VerifyVersionInfo º¯Êı
+	// è°ƒç”¨ VerifyVersionInfo å‡½æ•°
 	if (!VerifyVersionInfo(&osvi, VER_MAJORVERSION | VER_MINORVERSION | VER_PRODUCT_TYPE, dwlConditionMask)) {
 		InitPrintf("OSCheck", "ACCESS");
 	} 
