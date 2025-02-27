@@ -1,0 +1,21 @@
+﻿cl : 命令行  warning D9002: 忽略未知选项“/std=c++17”
+  pch.cpp
+cl : 命令行  warning D9002: 忽略未知选项“/std=c++17”
+  dllmain.cpp
+  Plugin.cpp
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\Plugin.h(11,15): warning C4251: “Plugin::file”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“Plugin”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5187): message : 参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  PluginSystem.cpp
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\Plugin.h(11,15): warning C4251: “Plugin::file”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“Plugin”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5187): message : 参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15,25): warning C4251: “PluginSystem::pluginList”: class“CircularQueue<Plugin *>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15): message : 参见“CircularQueue<Plugin *>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(16,14): warning C4251: “PluginSystem::srcPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5186): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Tools\Tools.h(104,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\Kernal_PluginSystem.lib 和对象 F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\Kernal_PluginSystem.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 366 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Kernal_PluginSystem.vcxproj -> F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\Kernal_PluginSystem.dll
