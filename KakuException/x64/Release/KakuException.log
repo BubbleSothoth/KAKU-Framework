@@ -1,0 +1,6 @@
+﻿  ErrorSystem.cpp
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorSystem.h(12,36): warning C4251: “ErrorSystem::ErrorList”: class“std::vector<KakuException,std::allocator<KakuException>>”需要有 dll 接口由 class“ErrorSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorSystem.h(12): message : 参见“std::vector<KakuException,std::allocator<KakuException>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorSystem.h(13,13): warning C4251: “ErrorSystem::mtx”: class“std::mutex”需要有 dll 接口由 class“ErrorSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mutex(86): message : 参见“std::mutex”的声明
+  KakuException.vcxproj -> F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\KakuException.lib
