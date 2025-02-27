@@ -38,7 +38,7 @@ void DLLCheckManager::__init__list(void)
 		f.read((char*)dcis, sizeof(DCIS));
 		if (strcpy_s(dcis->file, ""))
 			this->DCIS_list.push_back(dcis);
-
+		free(dcis);
 	}
 	f.close();
 }
@@ -101,6 +101,8 @@ void DLLCheckManager::__substep__chack_process(void)
 		memcpy_s(lpdcr->MD5SimpleValue, MD5Size, simple->md5Value, MD5Size);
 		memcpy_s(lpdcr->MD5StandardValue, MD5Size, lpdcis->md5Value, MD5Size);
 		this->DLLCheckReport_list.push_back(lpdcr);
+
+		free(simple);
 
 		if (lpdcr->Access) {
 			this->AccessList.push(lpdcr);

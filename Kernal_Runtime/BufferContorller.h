@@ -1,31 +1,30 @@
 #pragma once
 
-#include "InBufferFileContorller.h"
-#include "OutBufferFileContorller.h"
-#include "BufferContorller.h"
+//#include "InBufferFileContorller.h"
+//#include "OutBufferFileContorller.h"
+#include "BufferFileContorller.h"
+
 constexpr const wchar_t* IN_BUFFERL = L"C:\\Users\\27746\\AppData\\Local\\Temp\\KakuBuffer\\in.buf";
 constexpr const wchar_t* OUT_BUFFERL = L"C:\\Users\\27746\\AppData\\Local\\Temp\\KakuBuffer\\out.buf";
 constexpr const char* IN_BUFFER = "C:\\Users\\27746\\AppData\\Local\\Temp\\KakuBuffer\\in.buf";
 constexpr const char* OUT_BUFFER = "C:\\Users\\27746\\AppData\\Local\\Temp\\KakuBuffer\\out.buf";
 
-class InBufferFileContorller;
-class OutBufferFileContorller;
-
-class BufferContorller {
+class BufferContorller
+{
 public:
-	InBufferFileContorller* InFile = nullptr;
-	OutBufferFileContorller* OutFile = nullptr;
+	BufferFileContorller* InFile = nullptr;
+	BufferFileContorller* OutFile = nullptr;
 	BufferContorller() = default;
 	~BufferContorller() = default;
 public:
 	void RegisterOutFile(const wchar_t* file) {
 		LogoutOutFile();
-		this->OutFile = new OutBufferFileContorller(file);
+		this->OutFile = new BufferFileContorller(IOContorller::IOSelection::out, file);
 	}
 
 	void RegisterInFile(const wchar_t* file) {
 		LogoutInFile();
-		this->InFile = new InBufferFileContorller(file);
+		this->InFile = new BufferFileContorller(IOContorller::IOSelection::in,  file);
 		return;
 	}
 

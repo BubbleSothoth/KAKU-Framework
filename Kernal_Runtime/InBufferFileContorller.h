@@ -1,15 +1,16 @@
 #pragma once
 #include "BufferFileInterface.h"
+#include "IOContorller.h"
+
+
 
 class InBufferFileContorller :
-	public BufferFileInterface {
+	public BufferFileInterface,IOContorller {
 public:
-	InBufferFileContorller(void) = default;
+	InBufferFileContorller(void) :
+		BufferFileInterface(),IOContorller(IOContorller::IOSelection::in){}
 	InBufferFileContorller(const wchar_t* file) :
-		BufferFileInterface(file) {
-	}
-	~InBufferFileContorller(void){}
-	void Write(void* data, size_t size) = delete;
-	void Append(void* data, size_t size) = delete;
+		BufferFileInterface(file), IOContorller(IOContorller::IOSelection::in) {}
+	~InBufferFileContorller(void) = default;
 };
 

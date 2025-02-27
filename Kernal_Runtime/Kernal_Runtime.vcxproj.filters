@@ -45,6 +45,21 @@
     <ClInclude Include="DLLCheckInfoStruct.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ErrorCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketContorller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOContorller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferFileContorller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogContorller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -72,6 +87,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DLLCheckInfoStruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketContorller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOContorller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferContorller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferFileContorller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogContorller.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
