@@ -1,0 +1,55 @@
+﻿  Test.cpp
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorCode.h(17,1): warning C4005: “NO_ERROR”: 宏重定义
+D:\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(223): message : 参见“NO_ERROR”的前一个定义
+F:\project\KAKU Installer\KAKU-Framework-main\Tools\Tools.h(104,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\BufferFileInterface.h(34,1): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\BufferFileInterface.h(48,1): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\BufferFileInterface.h(61,1): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\Plugin.h(11,15): warning C4251: “Plugin::file”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“Plugin”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5187): message : 参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15,25): warning C4251: “PluginSystem::pluginList”: class“CircularQueue<Plugin *>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(15): message : 参见“CircularQueue<Plugin *>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_PluginSystem\PluginSystem.h(16,14): warning C4251: “PluginSystem::srcPath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“PluginSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5186): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorSystem.h(12,36): warning C4251: “ErrorSystem::ErrorList”: class“std::vector<KakuException,std::allocator<KakuException>>”需要有 dll 接口由 class“ErrorSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorSystem.h(12): message : 参见“std::vector<KakuException,std::allocator<KakuException>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\KakuException\ErrorSystem.h(13,13): warning C4251: “ErrorSystem::mtx”: class“std::mutex”需要有 dll 接口由 class“ErrorSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mutex(86): message : 参见“std::mutex”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(84,44): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(86,44): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(82,21): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(83,21): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(110,16): warning C4251: “RuntimeSystem::lc”: class“LogContorller”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\LogContorller.h(19): message : 参见“LogContorller”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(112,30): warning C4251: “RuntimeSystem::runningStateTableScore”: class“Score<bool [256]>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(112): message : 参见“Score<bool [256]>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(113,39): warning C4251: “RuntimeSystem::systemErrorTableScore”: class“Score<std::stack<unsigned short,std::deque<unsigned short,std::allocator<unsigned short>>>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(113): message : 参见“Score<std::stack<unsigned short,std::deque<unsigned short,std::allocator<unsigned short>>>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(114,13): warning C4251: “RuntimeSystem::ioMutex”: class“std::mutex”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mutex(86): message : 参见“std::mutex”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(115,30): warning C4251: “RuntimeSystem::inBuffer”: class“Score<IOData<void *>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(115): message : 参见“Score<IOData<void *>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(116,30): warning C4251: “RuntimeSystem::outBuffer”: class“Score<IOData<void *>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(115): message : 参见“Score<IOData<void *>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(117,28): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(117,30): warning C4251: “RuntimeSystem::nextOperation”: class“Score<CommandStruct>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(117): message : 参见“Score<CommandStruct>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(118,39): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(118,42): warning C4251: “RuntimeSystem::historyOperation”: class“Score<std::stack<CommandStruct,std::deque<CommandStruct,std::allocator<CommandStruct>>>>”需要有 dll 接口由 class“RuntimeSystem”的客户端使用
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(118): message : 参见“Score<std::stack<CommandStruct,std::deque<CommandStruct,std::allocator<CommandStruct>>>>”的声明
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(145,4): warning C5030: 未识别属性“noinline”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(157,37): warning C4099: “CommandStruct”: 类型名称以前使用“class”现在使用的是“struct”
+F:\project\KAKU Installer\KAKU-Framework-main\Kernal_Runtime\System.h(69): message : 参见“CommandStruct”的声明
+    正在创建库 F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\Test.lib 和对象 F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\Test.exp
+  正在生成代码
+  0 of 493 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Test.vcxproj -> F:\project\KAKU Installer\KAKU-Framework-main\x64\Release\Test.exe
