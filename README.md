@@ -14,10 +14,3 @@ KAKU是一个由我自行开发的编程框架，也是我的本科毕业设计�
 
 ## 开源协议
 本项目以MIT许可证作为开源协议。
-
-## 第三方代码
-|项目名|开源平台|编写者|开源协议|访问链接|
-|-|-|-|-|-|
-|mINI|GitHub|metayeti|MITLicense|https://github.com/metayeti/mINI|
-
-向编写并开源以上代码的人员表示感谢。

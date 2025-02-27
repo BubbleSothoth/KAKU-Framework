@@ -10,7 +10,6 @@
 
 #endif // !__FUNCTION__
 
-
 #define _SHOW_LOG(type,mess) printf("[%s] %s %s [%s : %d] %s : %s\n",type,__DATE__,__TIME__,__FILE__,__LINE__,__FUNCTION__,mess)
 #define _SHOW_DEBUG(type,mess) printf("[%s] %s\n",type,mess)
 
